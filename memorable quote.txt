@@ -2,3 +2,10 @@ a function that takes a parameter of type Color cannot take a Point as an argume
 
 Cargo also provides a command called cargo check. 
 This command quickly checks your code to make sure it compiles but doesn’t produce an executable.
+
+In fact, to work on any existing projects, 
+you can use the following commands to check out the code using Git, change to that project’s directory, 
+and build:
+$ git clone example.org/someproject
+$ cd someproject
+$ cargo build
