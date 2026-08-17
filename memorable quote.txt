@@ -18,3 +18,6 @@ such as the maximum number of points any player of a game is allowed to earn, or
 Expressions implicitly return the unit () value if they don’t return any other value.
 
 In function signatures, you must declare the type of each parameter. 
+
+Statements are instructions that perform some action and do not return a value.
+Expressions evaluate to a resultant value.
