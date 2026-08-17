@@ -14,3 +14,6 @@ Constants are valid for the entire time a program runs,
 within the scope in which they were declared. 
 This property makes constants useful for values in your application domain that multiple parts of the program might need to know about, 
 such as the maximum number of points any player of a game is allowed to earn, or the speed of light.
+
+
+Expressions implicitly return the unit () value if they don’t return any other value.
