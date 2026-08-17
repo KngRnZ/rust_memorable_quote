@@ -22,3 +22,4 @@ In function signatures, you must declare the type of each parameter.
 Statements are instructions that perform some action and do not return a value.
 Expressions evaluate to a resultant value.
 A new scope block created with curly brackets is an expression
+Expressions do not include ending semicolons.
