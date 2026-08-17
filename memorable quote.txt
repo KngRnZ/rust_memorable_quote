@@ -38,3 +38,8 @@ Doing this correctly has historically been a difficult programming problem.
 If we forget, we’ll waste memory. 
 If we do it too early, we’ll have an invalid variable. 
 If we do it twice, that’s a bug too. We need to pair exactly one allocate with exactly one free.
+
+Note that a reference’s scope starts from where it is introduced and continues through the last time that reference is used. 
+For instance, 
+this code will compile because the last usage of the immutable references is in the println!, 
+before the mutable reference is introduced:
