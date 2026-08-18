@@ -50,3 +50,7 @@ it would matter!
 We would have to keep in mind that width is the tuple index 0 and height is the tuple index 1. 
 This would be even harder for someone else to figure out and keep in mind if they were to use our code. 
 Because we haven’t conveyed the meaning of our data in our code, it’s now easier to introduce errors.
+
+Rust doesn’t have an equivalent to the -> operator; 
+instead, Rust has a feature called automatic referencing and dereferencing. 
+Calling methods is one of the few places in Rust with this behavior.
