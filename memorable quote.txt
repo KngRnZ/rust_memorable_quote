@@ -59,3 +59,6 @@ Associated functions that aren’t methods are often used for constructors that 
 These are often called new, but new isn’t a special name and isn’t built into the language. 
 For example, we could choose to provide an associated function named square that would have one dimension parameter and use that as both width and height, 
 thus making it easier to create a square Rectangle rather than having to specify the same value twice:
+
+enums give you a way of saying a value is one of a possible set of values.
+At one time only a value can be used.
