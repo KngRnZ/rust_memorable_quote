@@ -62,3 +62,8 @@ thus making it easier to create a square Rectangle rather than having to specify
 
 enums give you a way of saying a value is one of a possible set of values.
 At one time only a value can be used.
+
+The Option<T> enum is so useful that it’s even included in the prelude; 
+you don’t need to bring it into scope explicitly. 
+Its variants are also included in the prelude: 
+You can use Some and None directly without the Option:: prefix. 
