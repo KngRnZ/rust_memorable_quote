@@ -54,3 +54,8 @@ Because we haven’t conveyed the meaning of our data in our code, it’s now ea
 Rust doesn’t have an equivalent to the -> operator; 
 instead, Rust has a feature called automatic referencing and dereferencing. 
 Calling methods is one of the few places in Rust with this behavior.
+
+Associated functions that aren’t methods are often used for constructors that will return a new instance of the struct. 
+These are often called new, but new isn’t a special name and isn’t built into the language. 
+For example, we could choose to provide an associated function named square that would have one dimension parameter and use that as both width and height, 
+thus making it easier to create a square Rectangle rather than having to specify the same value twice:
