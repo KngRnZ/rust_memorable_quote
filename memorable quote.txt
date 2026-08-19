@@ -85,3 +85,7 @@ A package can contain as many binary crates as you like, but at most only one li
 A package must contain at least one crate, whether that’s a library or binary crate.
 
 A crate is the smallest amount of code that the Rust compiler considers at a time.
+
+Earlier, we mentioned that src/main.rs and src/lib.rs are called crate roots. 
+The reason for their name is that the contents of either of these two files form a module named crate at the root of the crate’s module structure, 
+known as the module tree.
