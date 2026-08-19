@@ -67,3 +67,7 @@ The Option<T> enum is so useful that it’s even included in the prelude;
 you don’t need to bring it into scope explicitly. 
 Its variants are also included in the prelude: 
 You can use Some and None directly without the Option:: prefix. 
+
+Using if let means less typing, less indentation, and less boilerplate code. 
+However, you lose the exhaustive checking match enforces that ensures that you aren’t forgetting to handle any cases. 
+Choosing between match and if let depends on what you’re doing in your particular situation and whether gaining conciseness is an appropriate trade-off for losing exhaustive checking.
