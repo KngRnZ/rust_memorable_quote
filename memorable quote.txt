@@ -80,3 +80,6 @@ Library crates don’t have a main function, and they don’t compile to an exec
 Instead, they define functionality intended to be shared with multiple projects. 
 Most of the time when Rustaceans say “crate,” they mean library crate, 
 and they use “crate” interchangeably with the general programming concept of a “library.”
+
+A package can contain as many binary crates as you like, but at most only one library crate. 
+A package must contain at least one crate, whether that’s a library or binary crate.
