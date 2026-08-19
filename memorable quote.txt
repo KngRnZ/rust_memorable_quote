@@ -71,3 +71,12 @@ You can use Some and None directly without the Option:: prefix.
 Using if let means less typing, less indentation, and less boilerplate code. 
 However, you lose the exhaustive checking match enforces that ensures that you aren’t forgetting to handle any cases. 
 Choosing between match and if let depends on what you’re doing in your particular situation and whether gaining conciseness is an appropriate trade-off for losing exhaustive checking.
+
+A crate can come in one of two forms: a binary crate or a library crate. 
+Binary crates are programs you can compile to an executable that you can run, 
+such as a command line program or a server. 
+Each must have a function called main that defines what happens when the executable runs. 
+Library crates don’t have a main function, and they don’t compile to an executable. 
+Instead, they define functionality intended to be shared with multiple projects. 
+Most of the time when Rustaceans say “crate,” they mean library crate, 
+and they use “crate” interchangeably with the general programming concept of a “library.”
